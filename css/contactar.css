@@ -1,0 +1,47 @@
+h3{
+border:1px solid black;
+opacity:0.8;
+background-color:white;
+border-radius: 5px;
+}
+table{
+opacity:0.8;
+background-color:white;
+border-radius: 5px;
+margin-bottom:2vw;
+}
+tr td a{
+font-weight: bold;
+text-decoration: underline grey;
+color:black;
+}
+tr td a:hover{
+color:grey;
+}
+form{
+display:flex;
+opacity:0.8;
+background-color:white;
+border-radius: 5px;
+}
+.form1{
+margin-left:1vw;
+flex-grow:3;
+}
+.form2{
+flex-grow:3;
+}
+textarea{
+flex-grow:1;
+}
+label{
+font-weight: bold;
+}
+
+@media (max-width:900px){
+form{
+align-items:center;
+flex-direction:column;
+}
+}
+

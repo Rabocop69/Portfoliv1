@@ -1,0 +1,13 @@
+table{
+opacity:0.8;
+background-color:white;
+border-radius: 5px;
+}
+tr td a{
+font-weight: bold;
+text-decoration: underline grey;
+color:black;
+}
+tr td a:hover{
+color:grey;
+}

@@ -1,0 +1,42 @@
+.llista{
+align-self:center;
+width:60%;
+}
+
+.llista ol{
+display:flex;
+flex-direction:column;
+opacity:0.8;
+background-color:white;
+border-radius: 5px;
+}
+
+.llista ol li a{
+font-weight: bold;
+text-decoration: underline grey;
+color:black;
+}
+.llista ol li a:hover{
+color:grey;
+}
+
+@media (max-width:600px){
+.llista{
+width:80%;
+}
+}
+
+@media (min-width:600px){
+.llista{
+width:50%;
+}
+.llista ol li ul{
+display:flex;
+width:60%;
+flex-direction:row;
+
+}
+.llista ol li ul li:first-child{
+margin-right:4vw;
+}
+

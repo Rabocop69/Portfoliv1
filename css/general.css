@@ -1,0 +1,177 @@
+@font-face {
+font-family: Samuel;
+src: url(../fonts/H.H.-Samuel-font-defharo.ttf);
+}
+
+@font-face {
+font-family: Ripmonsters;
+src: url(../fonts/Ripmonsters.ttf);
+}
+
+body{
+background-image:url("../image/old-board.jpg");
+display:flex;
+flex-direction:column;
+}
+
+.logo{
+background-image:url("../image/Logo_greatJobs.jpg");
+background-repeat:no-repeat;
+padding:38px 50px;
+margin:0 auto;
+margin-top:3vw;
+}
+
+header{
+color:white;
+display:flex;
+justify-content:center;
+flex-direction:column;
+align-items:center;
+font-family:Ripmonsters;
+background-image:url("../image/header.jpg");
+padding:1vw;
+margin:-1vw;
+background-size:cover;
+}
+
+header h1{
+font-size:4vw;
+margin-bottom:-2vw;
+}
+
+header h2{
+font-size:2vw;
+}
+
+nav ul{
+padding-top:1vw;
+list-style:none;
+display:flex;
+justify-content:center;
+}
+
+nav ul li{
+border:1px solid black;
+padding:1.5vw;
+border-radius: 35px;
+background-color:white;
+opacity:0.6;
+margin-right:4vw;
+}
+
+nav ul li:last-child{
+margin-right:0;
+}
+
+nav ul li:hover{
+opacity:0.8;
+}
+
+nav ul li a{
+text-decoration:none;
+display:block;
+color:black;
+font-family:Samuel;
+font-size:2.5vw;
+}
+
+p{
+font-weight: bold;
+line-height: 1.6;
+border:1px solid black;
+padding:1.5vw;
+border-radius: 35px;
+background-color:white;
+opacity:0.6;
+margin:4vw;
+}
+
+
+@media (max-width:450px){
+body{
+margin-right:0;
+margin-left:0;
+}
+
+header{
+margin-top:-1vh;
+}
+header h1{
+font-size:7vw;
+}
+header h2{
+font-size:4vw;
+}
+
+nav{
+width:100%;
+}
+nav ul{
+padding-left:0;
+flex-direction:column;
+width:100%;
+justify-content:flex-start;
+margin-top:0vh;
+}
+nav ul li{
+text-align:center;
+margin:0;
+border-radius:0px;
+}
+nav ul li a{
+font-size:4vw;
+}
+
+p{
+font-size:3.5vw;
+border-radius: 20px;
+}
+}
+
+@media (max-width:700px) and (min-width:450px){
+header{
+margin-top:-1vh;
+}
+header h1{
+font-size:6vw;
+}
+header h2{
+font-size:3.5vw;
+}
+
+nav ul li a{
+font-size:3vw;
+}
+
+p{
+font-size:2.3vw;
+}
+}
+
+@media (max-width:1050px) and (min-width:700px){
+p{
+font-size:1.8vw;
+}
+}
+
+@media (min-width:1050px){
+header h1{
+font-size:3vw;
+}
+header h2{
+font-size:2vw;
+}
+
+nav ul li a{
+font-size:1.5vw;
+}
+
+p{
+font-size:1.2vw;
+}
+}
+
+
+
+

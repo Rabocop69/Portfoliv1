@@ -1,0 +1,19 @@
+video{
+width:90%;
+max-width:500px;
+margin:0 auto;
+}
+
+.doscolumnes{
+display:flex;
+flex-direction:row;
+align-items:center;
+}
+
+@media (max-width:700px){
+
+.doscolumnes{
+flex-direction:column;
+}
+
+}
